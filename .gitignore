@@ -1,0 +1,14 @@
+#kode
+.env
+
+#sampah
+index.html
+
+#data dinamis
+mysql-data/
+uploads/
+storage-uploads/
+
+# --- File Sistem ---
+.DS_Store
+*.log
