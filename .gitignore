@@ -1,6 +1,10 @@
 #kode
 .env
 
+#backup
+backup_db.sql
+mysql-data-backup.tar
+
 #sampah
 index.html
 
