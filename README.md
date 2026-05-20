@@ -10,7 +10,7 @@ Repositori ini memuat panduan lengkap mengenai proses instalasi server, pembuata
 
 
 
-## 📌 Alur Panduan Setup (Berurutan)
+## 📌 Alur Panduan Setup
 
 
 
@@ -19,24 +19,18 @@ Silakan klik tautan di bawah ini untuk mempelajari langkah-langkah konfigurasi s
 
 
 ### 🚀 Tahap 1: Deployment Server
-
+Panduan inisialisasi server, konfigurasi `docker-compose.yml`, dan up container BookStack.
 * [📄 1. Tutorial Installasi Bookstack On Docker](dokumentasi/1.instalasi_on_docker.md)
 
-  *Panduan inisialisasi server, konfigurasi `docker-compose.yml`, dan up container BookStack.*
 
 
+### 🔒 Tahap 2: Keamanan & Hak Akses
 
-### 📂 Tahap 2: Manajemen Konten & Struktur
+* [📄 1. Setting User Permission](dokumentasi/4.setting_user_permission.md)
+* [📄 2. Setting Role Permission](dokumentasi/5.setting_role_permission.md)
 
+### 📂 Tahap 3: Manajemen Konten
+Panduan standar pembuatan Rak (Shelves), Buku (Books), Bab (Chapters), hingga Halaman (Pages).
+* [📄 2. Create Book & Struktur Dokumentasi](dokumentasi/3.create_shelves.md)
 * [📄 2. Create Book & Struktur Dokumentasi](dokumentasi/3.create_shelves.md)
 
-  *Panduan standar pembuatan Rak (Shelves), Buku (Books), Bab (Chapters), hingga Halaman (Pages).*
-
-
-
-### 🔒 Tahap 3: Keamanan & Hak Akses
-
-* [📄 3. Setting User & Role Permission](dokumentasi/4.setting_user_permission.md)
-* [📄 3. Setting User & Role Permission](dokumentasi/5.setting_shelves_permission.md)
-
-  *Panduan konfigurasi kecocokan matriks akses departemen, pembuatan tingkat keamanan (Public-Internal/Dept-Internal), dan pembatasan peran pengguna.*
