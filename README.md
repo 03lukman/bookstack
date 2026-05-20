@@ -26,11 +26,11 @@ Panduan inisialisasi server, konfigurasi `docker-compose.yml`, dan up container 
 
 ### 🔒 Tahap 2: Keamanan & Hak Akses
 
-* [📄 1. Setting User Permission](dokumentasi/4.setting_user_permission.md)
-* [📄 2. Setting Role Permission](dokumentasi/5.setting_role_permission.md)
+* [📄 1. Setting User Permission](dokumentasi/2.setting_user_permission.md)
+* [📄 2. Setting Role Permission](dokumentasi/3.setting_role_permission.md)
 
 ### 📂 Tahap 3: Manajemen Konten
 Panduan standar pembuatan Rak (Shelves), Buku (Books), Bab (Chapters), hingga Halaman (Pages).
-* [📄 2. Create Book & Struktur Dokumentasi](dokumentasi/3.create_shelves.md)
-* [📄 2. Create Book & Struktur Dokumentasi](dokumentasi/3.create_shelves.md)
+* [📄 2. Create Book & Struktur Dokumentasi](dokumentasi/4.create_shelves.md)
+* [📄 2. Create Book & Struktur Dokumentasi](dokumentasi/5.setting_shelves_permission.md)
 
