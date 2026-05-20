@@ -19,8 +19,6 @@ Masih di dalam menu setting, silahkan anda ke halaman users dan cari user yang i
 
 SIlahkan sesuaikan role name dengan roles yang ingin anda berikan ke user tersebut (pastikan anda sudah membuat role tersebut)
 
-[gambar/setting%20user%20permission5.png]]
+[[gambar/setting%20user%20permission5.png]]
 
 Dan silahkan lihat perubahan role pada user tersebut
-
-[[gambar/setting%20user%20permission3.png]]
