@@ -4,8 +4,8 @@ Langkah pertama adalah masuk ke dalam create new a role yang ada pada menu setti
 
 Silahkan anda sesuaikan role permission yang akan dibuat dengan keinginan anda
 
-[[gambar/setting role2.png]]
-[[gambar/setting role4.png]]
+[[gambar/setting%20role2.png]]
+[[gambar/setting%20role4.png]]
 
 Kemudian cek hasilnya, contoh saat ini adalah "Sales-Member"
 
