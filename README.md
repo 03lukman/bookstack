@@ -36,7 +36,7 @@ Silakan klik tautan di bawah ini untuk mempelajari langkah-langkah konfigurasi s
 
 ### 🔒 Tahap 3: Keamanan & Hak Akses
 
-* [📄 3. Setting User & Role Permission](dokumentasi/6.setting_user_permission.md)
+* [📄 3. Setting User & Role Permission](dokumentasi/4.setting_user_permission.md)
 * [📄 3. Setting User & Role Permission](dokumentasi/5.setting_shelves_permission.md)
 
   *Panduan konfigurasi kecocokan matriks akses departemen, pembuatan tingkat keamanan (Public-Internal/Dept-Internal), dan pembatasan peran pengguna.*
