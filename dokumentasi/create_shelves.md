@@ -1,3 +1,5 @@
+## Create Shelves
+
 Langkah pertama, pada dashboard, silahkan pilih menu Shelves/Rak
 
 [[gambar/setup_booksack.png]]
