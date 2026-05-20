@@ -1,6 +1,7 @@
 services:
+  # --- ENGINE DATABASE (MySQL Server) ---
   mysql:
-    image: mysql:8.0
+    image: mysql:${MYSQL_VERSION}
     container_name: bookstack_db
     environment:
       - MYSQL_ROOT_PASSWORD=${DB_ROOT_PASSWORD}
@@ -19,27 +20,34 @@ services:
       timeout: 5s
       retries: 5
 
+  # --- ENGINE UTAMA APLIKASI (BookStack Wiki) ---
   bookstack:
-    image: solidnerd/bookstack:26.3.2
+    image: solidnerd/bookstack:${BOOKSTACK_VERSION}
     container_name: bookstack
     depends_on:
       mysql:
+        # Proteksi: Memastikan database sehat sebelum aplikasi up
         condition: service_healthy
     networks:
       - net-caddy
     environment:
+      # Koneksi Database Internal
       - DB_HOST=mysql:3306
       - DB_DATABASE=${DB_NAME}
       - DB_USERNAME=${DB_USER}
       - DB_PASSWORD=${DB_PASSWORD}
+
+      # Konfigurasi Inti Web Host (Dinamis)
       - APP_URL=${APP_URL}
       - APP_KEY=${APP_KEY}
-      - APP_PROXIES=*
-      - APACHE_SERVER_NAME=book.ad.agson.co.id
+      - APACHE_SERVER_NAME=${SERVER_DOMAIN}
       - APP_THEME=custom
       - TZ=${TZ}
 
-      # OIDC Auth
+      # Solusi Fix Localhost / Mixed Content Assets TLS
+      - APP_PROXIES=*
+
+      # Integrasi SSO OpenID Connect (OIDC) Keycloak
       - AUTH_METHOD=oidc
       - OIDC_NAME="Login Agson"
       - OIDC_DISPLAY_NAME_CLAIMS=name
@@ -56,14 +64,18 @@ services:
     volumes:
       - uploads:/var/www/bookstack/public/uploads
       - storage-uploads:/var/www/bookstack/storage/uploads
+      # Folder kustomisasi hacks / themes functions Anda
       - ./themes:/var/www/bookstack/themes
     restart: unless-stopped
 
+# --- DEKLARASI DATA VOLUME PERSISTEN ---
 volumes:
   mysql-data:
   uploads:
   storage-uploads:
 
+# --- DEKLARASI JARINGAN REVERSE PROXY ---
 networks:
   net-caddy:
+    # Menggunakan jaringan eksternal terintegrasi Caddy SSL
     external: true
