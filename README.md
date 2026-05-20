@@ -31,6 +31,6 @@ Panduan inisialisasi server, konfigurasi `docker-compose.yml`, dan up container 
 
 ### 📂 Tahap 3: Manajemen Konten
 Panduan standar pembuatan Rak (Shelves), Buku (Books), Bab (Chapters), hingga Halaman (Pages).
-* [📄 2. Create Book & Struktur Dokumentasi](dokumentasi/4.create_shelves.md)
-* [📄 2. Create Book & Struktur Dokumentasi](dokumentasi/5.setting_shelves_permission.md)
+* [📄 2. Create Shelves & Struktur Dokumentasi](dokumentasi/4.create_shelves.md)
+* [📄 2. Setting Shelves Permission](dokumentasi/5.setting_shelves_permission.md)
 
