@@ -1,5 +1,6 @@
 Langkah pertama, pada dashboard, silahkan pilih menu Shelves/Rak
-![[setup_booksack.png]]
+
+[[gambar/setup_booksack.png]]
 
 Kemudian, silahkan anda pilih new shelf
 ![[add_shelves.png]]
