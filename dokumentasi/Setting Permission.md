@@ -15,11 +15,11 @@ Kemudian cek hasilnya, contoh saat ini adalah "Sales-Member"
 
 Masih di dalam menu setting, silahkan anda ke halaman users dan cari user yang ingin anda berikan permission
 
-[[gambar/setting%20user%20permission0.png]]
+[[gambar/setting%20user%20permission6.png]]
 
 SIlahkan sesuaikan role name dengan roles yang ingin anda berikan ke user tersebut (pastikan anda sudah membuat role tersebut)
 
-[gambar/setting%20user%20permission2.png]]
+[gambar/setting%20user%20permission5.png]]
 
 Dan silahkan lihat perubahan role pada user tersebut
 
