@@ -22,4 +22,4 @@ SIlahkan sesuaikan role name dengan roles yang ingin anda berikan ke user terseb
 
 [[gambar/setting_user_permission5.png]]
 
-Dan silahkan lihat perubahan role pada user tersebut
+Silahkan save dan lihat perubahan role pada user tersebut
