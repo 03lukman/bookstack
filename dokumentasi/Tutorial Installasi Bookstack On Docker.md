@@ -1,4 +1,3 @@
-
 # Persiapan Awal
 Pastikan anda sudah mempersiapkan beberpa bahan berikut :
 - Ubuntu Server 24.04.03 LTS Sebagai system operasi linux
@@ -117,11 +116,11 @@ https://login.ad.agson.co.id/
 
 Saat sudah login, masuk ke manage realms, dan pilih agson
 
-![[keycloak_realms.png]]
+[[gambar/keycloak_realms.png]]
 
 Kemudian, klik menu clients dan create client (lihat tampilan gambar di bawah)
 
-![[keycloak_client.png]]
+[[gambar/keycloak_client.png]]
 
 Untuk general setting, silahkan isi dengan
 - Client type: Silahkan gunakan OpenID Connect
@@ -131,18 +130,18 @@ Kemudian, untuk tahap selanjutnya adalah setting Capability config, dengan menga
 - Client authentication menjadi status ON
 - Authentication flow ( checklist di bagian Standard flow & Direct access grants), kemudian klik tombol Next 
  
-![[keycloak_config.png]]
+[[gambar/keycloak_config.png]]
 
 Selanjutnya, tahapan login setting:
 - Root URL : isi dengan root URL aplikasi yang sudah di daftarkan di docker caddy
 
 kemudian klik tombol Next 
 
-![[keycloak_login.png]]
+[[gambar/keycloak_login.png]]
 
 Setelah clients berhasil dibuat, selanjutnya klik menu credentials, dan copy kode client secret dan masukan kedalam file .env
 
-![[keycloak_secret.png]]
+[[gambar/keycloak_secret.png]]
 
 ### Setting Caddy (Reverse Proxy)
 Buat dahulu folder docker caddynya. Karena sebelumnya kita sudah buat folder docker untuk installasi bookstack, maka kita akan gunakan folder docker tersebut untuk installasi docker caddy
@@ -228,14 +227,14 @@ https://book.ad.agson.co.id/
 
 Jika instalasi berhasil, maka akan menampilkan halaman seperti pada gambar berikut:
 
-![[dashboard_login.png]]
+[[gambar/dashboard_login.png]]
 
 Silahkan anda klik tombol Login , dan masukan username dan password sesuai dengan akun active directory user account anda.
 
-![[keycloak_loginagson.png]] 
+[[gambar/keycloak_loginagson.png]] 
 
 Kemudian, jika berhasil maka akan menampilkan dashboard aplikasi bookstack, dan ketika muncul notifikasi pop-up seperti pada gambar dibawah *"You do not have to access the requested page"*, maka silahkan hubungi admin atau administrator untuk meminta akses permission aplikasi.
 
-![[gambar/bookstack&keycloack terhubung.png]] 
+[[gambar/bookstack&keycloack%20terhubung.png]] 
 
 Dengan ini, maka aplikasi bookstack telah berhasil terinstall pada komputer anda. Jika anda memiliki error pada langkah-langkah diatas, silahkan hubungi tim admin anda. Terimakasih
